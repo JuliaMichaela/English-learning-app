@@ -1,0 +1,42 @@
+[
+    {
+        "id":"12074",
+        "english":"turquoise",
+        "transcription":"[ ˈtɜːkwɔɪz ]",
+        "russian":"бирюзовый",
+        "tags":"цвета",
+        "tags_json":"[\"u0446u0432u0435u0442u0430\"]"
+    },
+    {
+        "id":"12080",
+        "english":"olive",
+        "transcription":"[ ˈɒlɪv ]",
+        "russian":"оливковый",
+        "tags":"цвета",
+        "tags_json":"[\"u0446u0432u0435u0442u0430\"]"
+    },
+    {
+        "id":"12081",
+        "english":"sky blue",
+        "transcription":"[ skaɪ bluː ]",
+        "russian":"небесно-голубой",
+        "tags":"цвета",
+        "tags_json":"[\"u0446u0432u0435u0442u0430\"]"
+    },
+    {
+        "id":"12082",
+        "english":"honeydew",
+        "transcription":"[ ˈhʌnɪdjuː ]",
+        "russian":"медовый",
+        "tags":"цвета",
+        "tags_json":"[\"u0446u0432u0435u0442u0430\"]"
+    },
+    {
+        "id":"12083","english":"lime green",
+        "transcription":"[ laɪm ɡriːn ]",
+        "russian":"лимонно-зеленый",
+        "tags":"цвета",
+        "tags_json":"[\"u0446u0432u0435u0442u0430\"]"
+    }
+    ]
+    
