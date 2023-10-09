@@ -1,0 +1,52 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card {
+   
+    width: 170px;
+    height: 230px;
+    background-color: rgba(244,242,243);
+    border-radius: 20px;
+    margin: 30px 10px 0px 10px; 
+    
+}
+
+.btnTranslate {
+    border-radius: 5px;
+    border-color: rgb(47, 197, 47);
+    background-color:  rgb(47, 197, 47);
+    padding: 2px 15px;
+    display: inline-block;
+    margin-top: 35px; 
+    color: rgb(255, 253, 253);
+    cursor: pointer;
+}
+
+.word {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.animation {
+    animation-name: test;
+    animation-duration: 3s;
+}
+
+@keyframes test {
+    0% {
+        transform: scale(1.2);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
