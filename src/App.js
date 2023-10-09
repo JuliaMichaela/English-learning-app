@@ -1,7 +1,7 @@
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Table from './components/Table/Table';
-import Wordcard from './components/WordCard/Wordcard';
+import WordCard from './components/WordCard/WordCard'
 import './style/App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
     <Header/>
     <Table/>
-    <Wordcard/>
+    <WordCard/>
     <Footer/>
     </div>
   );
