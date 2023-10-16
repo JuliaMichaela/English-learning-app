@@ -84,7 +84,6 @@ export default function TableRow(props) {
             });
             setEdited(!isEdited);
         }
-
     }
 
 
