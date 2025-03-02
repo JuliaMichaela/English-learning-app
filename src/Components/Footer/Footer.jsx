@@ -2,6 +2,6 @@ import './footer.scss'
 
 export default function Footer() {
     return (
-        <div className='footer'>Footer</div>
+        <footer>© 2025 Flashcards App</footer>
     )
 }

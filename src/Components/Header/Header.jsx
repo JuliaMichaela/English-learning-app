@@ -2,6 +2,12 @@ import './header.scss';
 
 export default function Header() {
     return (
-        <div className='header'>Header</div>
+        <header>
+            <h1>Flashcards</h1>
+            <nav>
+                <a href="#">Главная</a>
+                <a href="#">Тренировка</a>
+            </nav>
+        </header>
     )
 }
