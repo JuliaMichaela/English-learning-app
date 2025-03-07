@@ -1,12 +1,15 @@
-import './header.scss';
+import logo from '../../assets/images/logo-fox.png'
+import style from './Header.module.scss';
 
 export default function Header() {
     return (
-        <header>
-            <h1>Flashcards</h1>
+        <header className={style.header}>
+            <img className={style.header__logo} src={logo} alt={"logo-fox"} />
+            <h1 className={style.header__title}>Learning English Words</h1>
             <nav>
-                <a href="#">Главная</a>
-                <a href="#">Тренировка</a>
+                <a href="#">Home</a>
+                <a href="#">Game</a>
+                <a href="#">Vocabulary</a>
             </nav>
         </header>
     )

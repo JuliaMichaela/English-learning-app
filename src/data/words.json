@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "english": "dog",
+    "transcription": "[dɔːɡ]",
+    "russian": "собака",
+    "theme": "животные"
+  },
+  {
+    "id": 2,
+    "english": "cat",
+    "transcription": "[kæt]",
+    "russian": "кот",
+    "theme": "животные"
+  },
+  {
+    "id": 3,
+    "english": "elephant",
+    "transcription": "[ˈelɪfənt]",
+    "russian": "слон",
+    "theme": "животные"
+  },
+  {
+    "id": 4,
+    "english": "tiger",
+    "transcription": "[ˈtaɪɡər]",
+    "russian": "тигр",
+    "theme": "животные"
+  },
+  {
+    "id": 5,
+    "english": "lion",
+    "transcription": "[ˈlaɪən]",
+    "russian": "лев",
+    "theme": "животные"
+  },
+  {
+    "id": 6,
+    "english": "wolf",
+    "transcription": "[wʊlf]",
+    "russian": "волк",
+    "theme": "животные"
+  },
+  {
+    "id": 7,
+    "english": "fox",
+    "transcription": "[fɒks]",
+    "russian": "лиса",
+    "theme": "животные"
+  },
+  {
+    "id": 8,
+    "english": "bear",
+    "transcription": "[beər]",
+    "russian": "медведь",
+    "theme": "животные"
+  },
+  {
+    "id": 9,
+    "english": "rabbit",
+    "transcription": "[ˈræbɪt]",
+    "russian": "кролик",
+    "theme": "животные"
+  },
+  {
+    "id": 10,
+    "english": "horse",
+    "transcription": "[hɔːs]",
+    "russian": "лошадь",
+    "theme": "животные"
+  },
+  {
+    "id": 11,
+    "english": "eagle",
+    "transcription": "[ˈiːɡl]",
+    "russian": "орёл",
+    "theme": "птицы"
+  },
+  {
+    "id": 12,
+    "english": "sparrow",
+    "transcription": "[ˈspærəʊ]",
+    "russian": "воробей",
+    "theme": "птицы"
+  },
+  {
+    "id": 13,
+    "english": "owl",
+    "transcription": "[aʊl]",
+    "russian": "сова",
+    "theme": "птицы"
+  },
+  {
+    "id": 14,
+    "english": "parrot",
+    "transcription": "[ˈpærət]",
+    "russian": "попугай",
+    "theme": "птицы"
+  },
+  {
+    "id": 15,
+    "english": "penguin",
+    "transcription": "[ˈpɛŋɡwɪn]",
+    "russian": "пингвин",
+    "theme": "птицы"
+  },
+  {
+    "id": 16,
+    "english": "peacock",
+    "transcription": "[ˈpiːkɒk]",
+    "russian": "павлин",
+    "theme": "птицы"
+  },
+  {
+    "id": 17,
+    "english": "crow",
+    "transcription": "[krəʊ]",
+    "russian": "ворона",
+    "theme": "птицы"
+  },
+  {
+    "id": 18,
+    "english": "stork",
+    "transcription": "[stɔːk]",
+    "russian": "аист",
+    "theme": "птицы"
+  },
+  {
+    "id": 19,
+    "english": "swan",
+    "transcription": "[swɒn]",
+    "russian": "лебедь",
+    "theme": "птицы"
+  },
+  {
+    "id": 20,
+    "english": "woodpecker",
+    "transcription": "[ˈwʊdˌpɛkər]",
+    "russian": "дятел",
+    "theme": "птицы"
+  }
+]
