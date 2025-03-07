@@ -1,0 +1,25 @@
+.footer {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #FCE6C9;
+    color: #2C3E50;
+    // background-color: #4ABDAC;
+
+    &____contact{
+        align-items: flex-start;
+    }
+
+    &__icon{
+        width: 30px;
+        margin: 0 8px;
+    }
+
+    &__logo {
+        width: 100px;
+    }
+}
