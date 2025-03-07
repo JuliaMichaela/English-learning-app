@@ -4,10 +4,10 @@ export default function WordCard({ word }) {
     return (
 
         <div className="word-card">
-            <h3>{word.word}</h3>
+            <h3>{word.english}</h3>
             <p>Транскрипция: {word.transcription}</p>
-            <p>Перевод: {word.translation}</p>
-            <p>Тема: {word.topic}</p>
+            <p>Перевод: {word.russian}</p>
+            <p>Тема: {word.theme}</p>
         </div>
     );
 }
