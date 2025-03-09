@@ -19,7 +19,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <p>© 2025 Foxcards App</p>
+            <p>© 2025 FoxCards App</p>
             <img className={style.footer__logo} src={logoFox} alt={logoFox} />
 
         </footer>
