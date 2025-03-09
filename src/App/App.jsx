@@ -1,18 +1,16 @@
 import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
 import WordList from '../Components/WordList/WordList'
+import Table from '../Components/Table/Table'
 import words from '../data/words.json'
 import './App.scss'
 
 function App() {
 
-  // const words = [
-  //   { id: 1, word: "Hello", transcription: "[həˈləʊ]", translation: "Привет", topic: "Приветствия" },
-  // ];
-
   return (
     <>
       <Header />
+      <Table words={words} />
       <WordList words={words} />
       <Footer />
     </>
