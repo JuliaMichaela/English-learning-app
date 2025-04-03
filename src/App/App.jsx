@@ -1,7 +1,7 @@
-import Footer from '../Components/Footer/Footer'
-import Header from '../Components/Header/Header'
-import WordList from '../Components/WordList/WordList'
-import Table from '../Components/Table/Table'
+import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
+import WordList from '../components/WordList/WordList'
+import Table from '../components/Table/Table'
 import words from '../data/words.json'
 import './App.scss'
 

@@ -1,10 +1,36 @@
 .word-card {
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    min-height: 250px;
+    background-color: #FCE6C9;
     border-radius: 16px;
+    border: 1px solid #F08A4B;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 16px;
-    text-align: center;
+    color: #1f3c58;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 20px;
     transition: transform 0.2s;
+
+    h3 p {
+        margin: 0px;
+    }
+}
+
+.card-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #2C3E50;
+    background-color:#F08A4B;
+    border: none;
+    transition: transform 0.2s;
+
 }
 
 .word-card:hover {
