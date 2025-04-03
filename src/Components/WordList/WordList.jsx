@@ -2,19 +2,20 @@ import { useState } from 'react';
 import WordCard from "../WordCard/WordCard";
 import './WordList.scss'
 
-export default function WordList({ words }) {
+export default function WordList({ upd }) {
+    const { words } = upd;
     const [countSlider, setCountSlider] = useState(0);
 
     function prevSlider() {
         if (countSlider === 0) {
-            setCountSlider(words.lenght - 1);
+            setCountSlider(words.length - 1);
             return
         }
         setCountSlider((prevSlider) => prevSlider - 1);
     }
 
     function nextSlider() {
-        if (countSlider >= words.lenght - 1) {
+        if (countSlider === words.length - 1) {
             setCountSlider(0);
             return
         }

@@ -1,7 +1,8 @@
 import TableRow from '../TableRow/TableRow';
 import style from './Table.module.scss';
 
-export default function Table({ words }) {
+export default function Table({ upd }) {
+    const { words } = upd;
     return (
         <div>
             <table>
