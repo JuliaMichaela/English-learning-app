@@ -1,13 +1,14 @@
 .header {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FCE6C9;
+    background-color: #FFD166;
     color: #2C3E50;
 
     &__logo {
-        background-color: #FCE6C9;
+        background-color:#FFD166;
         width: 150px;
     }
 
@@ -17,7 +18,6 @@
     }
 
     a {
-        text-decoration: none;
         font-size: 1em;
         font-weight: bold;
         padding: 10px;
@@ -27,13 +27,6 @@
         color: #F08A4B;
     }
 }
-
-// .header__logo {
-//     background-color: #CEEE50;
-//     background-color: #F08A4B;
-//     background-color: #CEEE50;
-//     background-color: #CEEE50;
-// }
 
 .logo {
     width: 150px;

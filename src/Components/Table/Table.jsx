@@ -3,6 +3,7 @@ import style from './Table.module.scss';
 
 export default function Table({ upd }) {
     const { words } = upd;
+
     return (
         <div>
             <table>

@@ -1,22 +1,36 @@
-import Footer from '../components/Footer/Footer'
-import Header from '../components/Header/Header'
-import WordList from '../components/WordList/WordList'
-import Table from '../components/Table/Table'
-import wordsServ from '../data/words.json'
+import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import wordsServ from '../data/words.json';
+import Header from '../components/Header/Header';
+import HomePage from '../pages/HomePage/HomePage';
+import GamePage from '../pages/GamePage/GamePage';
+import TablePage from '../pages/TablePage/TablePage';
+import ErrorPage from '../pages/ErrorPage/ErrorPage';
+import Footer from '../components/Footer/Footer';
 import './App.scss'
-import { useState } from 'react'
+
 
 function App() {
   const [words, setWords] = useState(wordsServ);
   const upd = { words, setWords }
 
   return (
-    <>
-      <Header />
-      <Table upd={upd} />
-      <WordList upd={upd} />
-      <Footer />
-    </>
+    <div className='app'>
+      <header>
+        <Header />
+      </header>
+      <main>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/game' element={<GamePage upd={upd} />} />
+          <Route path='/table' element={<TablePage upd={upd} />} />
+          <Route path='*' element={<ErrorPage />} />
+        </Routes>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
   )
 }
 
