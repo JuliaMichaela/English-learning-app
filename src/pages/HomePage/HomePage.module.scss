@@ -1,7 +1,69 @@
-.container {
+.container__home {
     background-color: #FCE6C9;
-    // #FCE6C9
-    // #FFD166
-    // #F08A4B
+    color: #2C3E50;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 40px;
+            margin: 0;
+            color: #F08A4B;
+            animation-delay: 0.2s;
+    }
     
+    p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #F08A4B;
+        line-height: 1.5;
+        margin: 15px 0 20px;
+        animation-delay: 0.4s;
+    }
+}
+
+.fox__img {
+    width: 300px;
+    max-width: 90vw;
+    border-radius: 20px;
+    animation: fadeInUp 0.8s ease-out both;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 50px;
+    border-radius: 20px;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    animation: fadeInUp 0.8s ease-out both;
+    text-align: center;
+}
+
+.button {
+    background-color: #4ABDAC;
+    color: white;
+    text-decoration: none;
+    padding: 15px 28px;
+    border-radius: 15px;
+    font-weight: bolder;
+    transition: background-color 0.3s;
+    animation: fadeInUp 0.8s ease-out both;
+    animation-delay: 0.6s;
+}
+
+.button:hover {
+    background-color: #247B63;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
