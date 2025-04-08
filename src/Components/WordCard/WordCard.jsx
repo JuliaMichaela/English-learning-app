@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './WordCard.scss'
+import style from './WordCard.module.scss'
 
 export default function WordCard({ english, transcription, theme, russian, slideIndex }) {
     const [isVisible, setVisible] = useState(false);
@@ -14,14 +14,15 @@ export default function WordCard({ english, transcription, theme, russian, slide
 
 
     return (
-        <div key={slideIndex} className="word-card">
+        <div className={style.wordcard} key={slideIndex}>
             <h3>{english}</h3>
-            <p>Транскрипция: {transcription}</p>
+            <p className={style.transcription}>Транскрипция: {transcription}</p>
+            <p className={style.theme}>{theme}</p>
             <div>
                 {!isVisible ? (
-                    <button className="card-btn" onClick={handleShow}>Проверить</button>
+                    <button className={style.btn} onClick={handleShow}>Проверить</button>
                 ) : (
-                    <p>Перевод: {russian}</p>
+                    <p className={style.translation}>{russian}</p>
                 )}
             </div>
         </div>
