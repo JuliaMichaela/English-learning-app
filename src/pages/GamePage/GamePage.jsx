@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import WordCard from "../../components/WordCard/WordCard";
-import './GamePage.scss'
+import style from './GamePage.module.scss';
 
 export default function GamePage({ upd }) {
     const { words } = upd;
@@ -24,13 +24,13 @@ export default function GamePage({ upd }) {
 
 
     return (
-        <div className="container-wordList">
+        <div className={style.game} >
 
-            <button className="wordList-btn" onClick={prevSlider}>Prev</button>
+            <button className={style.game__btn} onClick={prevSlider}>Prev</button>
 
             <WordCard {...words[countSlider]} slideIndex={countSlider} />
 
-            <button className="wordList-btn" onClick={nextSlider}>Next</button>
-        </div>
+            <button className={style.game__btn} onClick={nextSlider}>Next</button>
+        </div >
     );
 }
