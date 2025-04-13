@@ -1,16 +1,25 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import style from './WordCard.module.scss'
 
-export default function WordCard({ english, transcription, theme, russian, slideIndex }) {
+export default function WordCard({ english, transcription, theme, russian, slideIndex, onReveal }) {
+
     const [isVisible, setVisible] = useState(false);
+    const btnRef = useRef(null);
 
     function handleShow() {
-        setVisible(true)
+        setVisible(true);
+        onReveal();
     }
 
     useEffect(() => {
         setVisible(false);
     }, [slideIndex])
+
+    useEffect(() => {
+        if (btnRef.current) {
+            btnRef.current.focus();
+        }
+    }, [slideIndex]);
 
 
     return (
@@ -20,7 +29,10 @@ export default function WordCard({ english, transcription, theme, russian, slide
             <p className={style.theme}>{theme}</p>
             <div>
                 {!isVisible ? (
-                    <button className={style.btn} onClick={handleShow}>Проверить</button>
+                    <button
+                        ref={btnRef}
+                        className={style.btn}
+                        onClick={handleShow}>Проверить</button>
                 ) : (
                     <p className={style.translation}>{russian}</p>
                 )}
