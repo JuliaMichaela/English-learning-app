@@ -1,4 +1,4 @@
-import TableRow from '../TableRow/TableRow';
+// import TableRow from '../TableRow/TableRow';
 import style from './Table.module.scss';
 
 export default function Table({ upd }) {

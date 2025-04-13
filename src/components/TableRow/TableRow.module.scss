@@ -1,0 +1,94 @@
+.container__row {
+    width: 90%;
+    margin: 10px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.container__row:hover {
+    transform: scale(1.01);
+}
+
+.wrapper__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content, .editor {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 850px;
+}
+
+.content div {
+    flex: 1;
+    padding: 10px;
+    border-right: 1px solid #4ABDAC;
+    color: #2C3E50;
+    font-weight: 500;
+}
+
+.editor input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+}
+
+.wrapper__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .wrapper__button div {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Цвета кнопок */
+  button:nth-child(1) {
+    background-color: #F08A4B; // Edit
+    color: white;
+  }
+  
+  button:nth-child(2) {
+    background-color: #E74C3C; // Delete / Cancel
+    color: white;
+  }
+  
+  .wrapper__button div button:nth-child(1):hover {
+    background-color: #e67e22;
+  }
+  
+  .wrapper__button div button:nth-child(2):hover {
+    background-color: #c0392b;
+  }
+  
+  button.save {
+    background-color: #4ABDAC; // Save
+    color: white;
+  }
+  
+  button.save:hover {
+    background-color: #247B63;
+  }
